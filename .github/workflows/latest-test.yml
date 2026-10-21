@@ -1,7 +1,5 @@
 name: CT - latest releases
 on:
-  schedule:
-    - cron: "30 11 * * *"
   push:
     paths:
       - "!**/latest-test.yml"

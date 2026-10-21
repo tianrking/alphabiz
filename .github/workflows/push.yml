@@ -5,8 +5,6 @@ name: CI/CT/CD
 # concurrency: staging_environment
 
 on:
-  schedule:
-    - cron: "30 11 * * *"
   pull_request:
   push:
     paths:
